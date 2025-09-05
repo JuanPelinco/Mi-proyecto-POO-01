@@ -12,7 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
 
-import java.awt.event.KeyEvent;
 import java.util.Map;
 
 @Controller
@@ -27,6 +26,7 @@ public class MainguiController {
     private Menu menu1;
     @FXML
     private MenuItem menuItem1, menuItem2, menuItemC;
+
     @Autowired
     protected ApplicationContext context;
 
@@ -39,9 +39,8 @@ public class MainguiController {
         menuItemC.setOnAction(mIL::handle);
     }
     class MenuItemListener{
-
         Map<String, String[]> menuConfig=Map.of(
-                "menuItem1", new String[]{"/fxml/main_asistencia.fxml","Gestion Asistencia","T"},
+               "menuItem1", new String[]{"/fxml/main_asistencia.fxml","Gestion Asistencia","T"},
                 "menuItem2", new String[]{"/fxml/main_participante.fxml","Gestion Participantes","T"},
                 "menuItemC", new String[]{"/fxml/login.fxml","Salir","C"}
         );
@@ -63,23 +62,21 @@ public class MainguiController {
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(rutaArchivo));
                 fxmlLoader.setControllerFactory(context::getBean);
                 Parent root = fxmlLoader.load();
-
                 ScrollPane scrollPane = new ScrollPane(root);
                 scrollPane.setFitToWidth(true);
                 scrollPane.setFitToHeight(true);
-
                 Tab newTab = new Tab(titulo, scrollPane);
                 tabPane.getTabs().clear();
                 tabPane.getTabs().add(newTab);
-
             }catch (Exception ex) {
                 ex.printStackTrace();
             }
-
         }
 
 
+
     }
+
     class MenuListener{
         public void menuSelected(Event e){
         }

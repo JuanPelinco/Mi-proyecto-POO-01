@@ -78,10 +78,10 @@
                         </GridPane>
                         <AnchorPane>
                            <children>
-                              <TableView fx:id="tableRegPart" layoutY="14.0">
+                              <TableView layoutY="14.0">
                                 <columns>
-                                  <TableColumn prefWidth="75.0" />
-                                  <TableColumn minWidth="0.0" prefWidth="71.0" />
+                                  <TableColumn prefWidth="75.0" text="C1" />
+                                  <TableColumn prefWidth="75.0" text="C2" />
                                 </columns>
                               </TableView>
                            </children></AnchorPane>

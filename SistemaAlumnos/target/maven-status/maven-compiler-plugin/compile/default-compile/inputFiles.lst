@@ -1,0 +1,13 @@
+D:\aa\SistemaAlumnos\src\main\java\pe\edu\upeu\sistemaalumnos\AppMain.java
+D:\aa\SistemaAlumnos\src\main\java\pe\edu\upeu\sistemaalumnos\control\AlumnoControl.java
+D:\aa\SistemaAlumnos\src\main\java\pe\edu\upeu\sistemaalumnos\control\AlumnoFxControl.java
+D:\aa\SistemaAlumnos\src\main\java\pe\edu\upeu\sistemaalumnos\control\VentaFxControl.java
+D:\aa\SistemaAlumnos\src\main\java\pe\edu\upeu\sistemaalumnos\Main.java
+D:\aa\SistemaAlumnos\src\main\java\pe\edu\upeu\sistemaalumnos\modelo\Alumno.java
+D:\aa\SistemaAlumnos\src\main\java\pe\edu\upeu\sistemaalumnos\modelo\Destino.java
+D:\aa\SistemaAlumnos\src\main\java\pe\edu\upeu\sistemaalumnos\modelo\Horario.java
+D:\aa\SistemaAlumnos\src\main\java\pe\edu\upeu\sistemaalumnos\modelo\Venta.java
+D:\aa\SistemaAlumnos\src\main\java\pe\edu\upeu\sistemaalumnos\repositorio\AlumnoRepositorio.java
+D:\aa\SistemaAlumnos\src\main\java\pe\edu\upeu\sistemaalumnos\repositorio\ConexionBD.java
+D:\aa\SistemaAlumnos\src\main\java\pe\edu\upeu\sistemaalumnos\servicio\AlumnoServicio.java
+D:\aa\SistemaAlumnos\src\main\java\pe\edu\upeu\sistemaalumnos\servicio\VentaServicio.java

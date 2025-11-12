@@ -17,6 +17,7 @@ public class UnidadMedida {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_unidad")
     private Long idUnidad;
-    @Column(name = "nombre_medida", nullable = false, length = 60)
+
+    @Column(nullable = false, length = 60)
     private String nombreMedida;
 }

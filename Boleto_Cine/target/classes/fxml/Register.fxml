@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="pe.edu.upeu.cine.control.RegisterController"
+            stylesheets="@../css/darkpro.css"
+            prefWidth="380" prefHeight="320">
+
+    <children>
+        <VBox spacing="15" alignment="CENTER"
+              prefWidth="320" prefHeight="260"
+              layoutX="30" layoutY="30"
+              style="-fx-background-color: #161a21; -fx-background-radius: 12; -fx-padding: 25;">
+
+            <Label text="Registrar Usuario"
+                   style="-fx-font-size: 20px; -fx-text-fill: #1e90ff;" />
+
+            <TextField fx:id="txtNewUser" promptText="Nuevo usuario"
+                       style="-fx-prompt-text-fill: #777;" />
+
+            <PasswordField fx:id="txtNewPass" promptText="Contraseña"
+                           style="-fx-prompt-text-fill: #777;" />
+
+            <Button text="Registrar"
+                    styleClass="button"
+                    prefWidth="160"
+                    onAction="#registrarUsuario"/>
+
+        </VBox>
+    </children>
+</AnchorPane>

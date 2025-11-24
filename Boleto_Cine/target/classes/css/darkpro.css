@@ -1,0 +1,130 @@
+/* ======================================================
+   DARK PRO THEME — COMPATIBLE 100% CON JAVAFX
+   ===================================================== */
+
+/* ------------------ COLORES DIRECTOS ------------------ */
+.root {
+    -fx-background-color: #0d0f14;
+}
+
+/* ------------------ LABELS ------------------ */
+.label {
+    -fx-text-fill: #e0e6f0;
+    -fx-font-size: 14px;
+}
+
+/* ------------------ TITULOS ------------------ */
+.title {
+    -fx-text-fill: #1e90ff;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+/* ------------------ BOTONES ------------------ */
+.button {
+    -fx-background-color: #1e90ff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 14px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #42a5ff;
+}
+
+.button:pressed {
+    -fx-background-color: #7dc3ff;
+}
+
+/* Botón rojo */
+.button-danger {
+    -fx-background-color: #ff4c4c;
+    -fx-text-fill: white;
+}
+.button-danger:hover {
+    -fx-background-color: #ff6666;
+}
+
+/* Botón verde */
+.button-success {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+}
+
+/* ------------------ TEXTFIELD ------------------ */
+.text-field {
+    -fx-background-color: #161a21;
+    -fx-text-fill: #e0e6f0;
+    -fx-background-radius: 5px;
+    -fx-border-color: #2a303d;
+    -fx-border-radius: 5px;
+    -fx-padding: 6px;
+}
+
+.text-field:focused {
+    -fx-border-color: #1e90ff;
+}
+
+/* ------------------ COMBOBOX ------------------ */
+.combo-box {
+    -fx-background-color: #161a21;
+    -fx-border-color: #2a303d;
+    -fx-text-fill: #e0e6f0;
+    -fx-background-radius: 5px;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #e0e6f0;
+    -fx-background-color: #161a21;
+}
+.combo-box .list-cell:hover {
+    -fx-background-color: #1e90ff;
+}
+
+/* ------------------ TABLEVIEW ------------------ */
+.table-view {
+    -fx-background-color: #1b1f27;
+    -fx-border-color: #2a303d;
+    -fx-table-cell-border-color: #2a303d;
+    -fx-text-background-color: #e0e6f0;
+}
+
+.table-view .column-header {
+    -fx-background-color: #161a21;
+    -fx-text-fill: #e0e6f0;
+}
+
+.table-row-cell {
+    -fx-background-color: #1b1f27;
+    -fx-text-fill: #e0e6f0;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #242933;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #1e90ff;
+    -fx-text-fill: white;
+}
+
+/* ------------------ MENU BAR ------------------ */
+.menu-bar {
+    -fx-background-color: #161a21;
+    -fx-border-color: #2a303d;
+}
+
+.menu-bar .label {
+    -fx-text-fill: #e0e6f0;
+}
+
+/* ------------------ PANE / CONTENEDORES ------------------ */
+.pane,
+.anchor-pane,
+.hbox,
+.vbox,
+.border-pane {
+    -fx-background-color: #0d0f14;
+}

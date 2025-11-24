@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="pe.edu.upeu.cine.control.DeleteUserController"
+            stylesheets="@../css/darkpro.css"
+            prefWidth="350" prefHeight="200">
+
+    <children>
+        <VBox spacing="15" alignment="CENTER"
+              prefWidth="280" prefHeight="160"
+              layoutX="35" layoutY="20"
+              style="-fx-background-color: #161a21; -fx-background-radius: 12; -fx-padding: 25;">
+
+            <Label text="Eliminar Usuario"
+                   style="-fx-font-size: 20px; -fx-text-fill: #ff4c4c;" />
+
+            <TextField fx:id="txtDeleteUser" promptText="Usuario a eliminar"
+                       style="-fx-prompt-text-fill: #777;" />
+
+            <Button text="Eliminar"
+                    style="-fx-background-color: #ff4c4c; -fx-text-fill: white;"
+                    prefWidth="140"
+                    onAction="#eliminarUsuario"/>
+
+        </VBox>
+    </children>
+</AnchorPane>
